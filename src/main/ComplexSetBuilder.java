@@ -6,7 +6,9 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.Map.Entry;
 
-import main.ComplexElement.SeqType;
+
+
+import main.Element.SeqType;
 
 import org.biojava.nbio.core.sequence.ProteinSequence;
 import org.biojava.nbio.core.sequence.io.FastaReaderHelper;
@@ -61,7 +63,7 @@ public class ComplexSetBuilder extends SetBuilder {
 			if (current_length + g.getSequenceLength() > required_length)
 				done = true;
 			else {
-				filtered.add(g);
+				filtered.add((ComplexElement) g.clone());
 				current_length += g.getSequenceLength();
 			}
 		}

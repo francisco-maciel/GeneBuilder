@@ -1,31 +1,15 @@
 package main;
 
-import org.biojava.nbio.core.exceptions.CompoundNotFoundException;
-import org.biojava.nbio.core.sequence.ProteinSequence;
+import main.Generator.Mutation;
 
 public class SimpleElement extends Element {
 	public String aminoacid;
 
 	public SimpleElement() {
-		int r = Generator.randInt(1, 4);
-		switch (r) {
-		case 1:
-			aminoacid = "A";
-			break;
-		case 2:
-			aminoacid = "G";
-			break;		
-		case 3:
-			aminoacid = "T";
-			break;		
-		case 4:
-			aminoacid = "C";
-			break;
-		default:
-			break;
-		}
+		aminoacid = getrandomAminoacid();
 
 	}
+
 
 	public SimpleElement(String n) {
 		aminoacid = n;
@@ -37,5 +21,24 @@ public class SimpleElement extends Element {
 	
 	public int getSequenceLength() {
 		return 1;
+	}
+	
+	public SeqType getType() {
+		return SeqType.simple_element;
+	}
+	
+	public void applyMutation(Mutation mutation, int i) {
+		if (mutation == Mutation.replacement) this.aminoacid = getrandomAminoacid();
+		else System.out.println("Warning unsuported mutation for simple element");
+	}
+	
+	
+	public boolean canInsert(int maxDepth) {
+
+		return false;
+	}
+	
+	public String getSequenceAsString() {
+		return aminoacid;
 	}
 }

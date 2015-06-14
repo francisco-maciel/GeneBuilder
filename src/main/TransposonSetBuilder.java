@@ -44,7 +44,7 @@ public class TransposonSetBuilder extends SetBuilder {
 			if (current_length + t.getSequenceLength() > required_length)
 				done = true;
 			else {
-				filtered.add(t);
+				filtered.add((TransposonElement) t.clone());
 				current_length += t.getSequenceLength();
 			}
 		}

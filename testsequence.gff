@@ -1,0 +1,40 @@
+##gff-version 3
+##seq_length: 100000	transposon %:	40	gene %:	4	repetitive element %:	6	insertion rate:	20	remotion rate:	20	replacement rate:	20	transposon depth:	1
+testsequence	.	tandem	204	1568	.	+	.	replen	1364;	id:	unannotated_repeat_33;	type:	RepetitiveElement;
+testsequence	.	tandem	2120	7232	.	+	.	replen	5112;	id:	WIS21A_TA_I;	type:	Copia;	ins:	104;	rem:	106;	repl:	105
+testsequence	.	NXE	7232	7973	.	+	.	gene_index	741;	id:	288bp_ciona_specific_tandem_repeatx3;
+testsequence	.	tandem	8668	8905	.	+	.	replen	237;	id:	BEL13-LTR_AG;	type:	BEL;	ins:	6;	rem:	9;	repl:	1
+testsequence	.	NXE	9324	9519	.	+	.	gene_index	195;	id:	Scaffold_1:118700-118892;
+testsequence	.	tandem	10880	11617	.	+	.	replen	737;	id:	LTR26_MD;	type:	Endogenous Retrovirus;	ins:	4;	rem:	38;	repl:	14
+testsequence	.	tandem	13362	13742	.	+	.	replen	380;	id:	CEREBA_LM;	type:	Gypsy;	ins:	7;	rem:	3;	repl:	8
+testsequence	.	NXE	19151	19429	.	+	.	gene_index	278;	id:	unannotated_repeat_17;
+testsequence	.	NXE	25349	25790	.	+	.	gene_index	441;	id:	Read_XPA25251.x:96-534;
+testsequence	.	tandem	27803	28056	.	+	.	replen	253;	id:	MGRL3_LTR;	type:	Gypsy;	ins:	6;	rem:	3;	repl:	2
+testsequence	.	tandem	29184	29417	.	+	.	replen	233;	id:	GYPSY25-LTR_AG;	type:	Gypsy;	ins:	3;	rem:	4;	repl:	5
+testsequence	.	tandem	31655	32028	.	+	.	replen	373;	id:	SZ-59_LTR;	type:	Gypsy;	ins:	4;	rem:	9;	repl:	9
+testsequence	.	NXE	32215	32714	.	+	.	gene_index	499;	id:	partial_XPA14309.y;
+testsequence	.	tandem	35789	36056	.	+	.	replen	267;	id:	DMLTR5;	type:	Gypsy;	ins:	4;	rem:	3;	repl:	4
+testsequence	.	tandem	36152	38911	.	+	.	replen	2759;	id:	ROMANI1_LTR;	type:	Gypsy;	ins:	61;	rem:	53;	repl:	53
+testsequence	.	tandem	40377	40807	.	+	.	replen	430;	id:	CPSC3_LTR;	type:	Copia;	ins:	7;	rem:	4;	repl:	14
+testsequence	.	tandem	40807	41070	.	+	.	replen	263;	id:	GYPSY4-LTR_AG;	type:	Gypsy;	ins:	3;	rem:	10;	repl:	8
+testsequence	.	tandem	41070	54255	.	+	.	replen	13185;	id:	ATLANTYS_LC_I;	type:	Gypsy;	ins:	566;	rem:	229;	repl:	256
+testsequence	.	tandem	54697	56742	.	+	.	replen	2045;	id:	Gypsy-8-LTR_CR;	type:	Gypsy;	ins:	32;	rem:	31;	repl:	38
+testsequence	.	tandem	57718	57950	.	+	.	replen	232;	id:	Copia6-LTR_TP;	type:	Copia;	ins:	0;	rem:	3;	repl:	6
+testsequence	.	NXE	59843	60453	.	+	.	gene_index	610;	id:	93bp_tandem_repeatx7;
+testsequence	.	tandem	62024	62530	.	+	.	replen	506;	id:	Read_XPA27773.x:139-653;	type:	RepetitiveElement;
+testsequence	.	tandem	64056	64720	.	+	.	replen	664;	id:	TCA5_LTR;	type:	Copia;	ins:	0;	rem:	21;	repl:	21
+testsequence	.	tandem	66963	67300	.	+	.	replen	337;	id:	ALISEI_LTR;	type:	Gypsy;	ins:	0;	rem:	5;	repl:	8
+testsequence	.	NXE	67300	67424	.	+	.	gene_index	124;	id:	unannotated_repeat_14;
+testsequence	.	tandem	71303	72153	.	+	.	replen	850;	id:	LTR98_MD;	type:	Endogenous Retrovirus;	ins:	19;	rem:	19;	repl:	18
+testsequence	.	tandem	75177	75838	.	+	.	replen	661;	id:	LTR108_MD;	type:	Endogenous Retrovirus;	ins:	12;	rem:	15;	repl:	19
+testsequence	.	NXE	75838	76306	.	+	.	gene_index	468;	id:	Contig_457;
+testsequence	.	tandem	77748	77947	.	+	.	replen	199;	id:	Contig_142;	type:	RepetitiveElement;
+testsequence	.	tandem	78052	83221	.	+	.	replen	5169;	id:	OSCOPIA2_I;	type:	Copia;	ins:	117;	rem:	100;	repl:	110
+testsequence	.	tandem	86710	86860	.	+	.	replen	150;	id:	unannotated_repeat_15;	type:	RepetitiveElement;
+testsequence	.	tandem	88630	89352	.	+	.	replen	722;	id:	Gypsy-26-LTR_DR;	type:	Gypsy;	ins:	12;	rem:	9;	repl:	17
+testsequence	.	tandem	91396	91575	.	+	.	replen	179;	id:	unannotated_repeat_12;	type:	RepetitiveElement;
+testsequence	.	tandem	95608	95917	.	+	.	replen	309;	id:	CSP2108;	type:	Gypsy;	ins:	4;	rem:	7;	repl:	13
+testsequence	.	tandem	96088	96307	.	+	.	replen	219;	id:	GYPSY60-LTR_AG;	type:	Gypsy;	ins:	2;	rem:	3;	repl:	5
+testsequence	.	NXE	96864	97221	.	+	.	gene_index	357;	id:	Scaffold_1:302908-303267;
+testsequence	.	tandem	98357	98522	.	+	.	replen	165;	id:	GYPSY21-LTR_AG;	type:	Gypsy;	ins:	0;	rem:	2;	repl:	0
+testsequence	.	tandem	98873	99453	.	+	.	replen	580;	id:	LTR74_MD;	type:	Endogenous Retrovirus;	ins:	0;	rem:	8;	repl:	0
